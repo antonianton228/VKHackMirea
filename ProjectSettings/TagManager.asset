@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 3
   tags:
   - fish
+  - black
+  - block
   layers:
   - Default
   - TransparentFX

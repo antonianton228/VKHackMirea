@@ -101,7 +101,7 @@ GameObject:
   - component: {fileID: 5041838189873582535}
   m_Layer: 0
   m_Name: coral
-  m_TagString: Untagged
+  m_TagString: block
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -208,3 +208,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hp: 100
+  protection: 0

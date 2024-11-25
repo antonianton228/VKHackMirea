@@ -8,6 +8,9 @@ public class Player : MonoBehaviour
 	[SerializeField] private Touch lastTouch;
 	
 	[SerializeField] private float speedFactor;
+	private bool is_click_for_ability = false;
+	
+	[SerializeField] public int status = 0; // 0 - стрелять, 1 - абилка, 2 - конец
 	void Start()
 	{
 		
@@ -22,31 +25,44 @@ public class Player : MonoBehaviour
 	private void input_update()
 	{
 		GameController controller = GetComponent<GameController>();
-		if (Input.touchCount == 1)
+		if(status == 0)
 		{
-			if (!is_toched)
+			if (Input.touchCount == 1)
 			{
-				startTouch = Input.GetTouch(0);
-				is_toched = true;
+				if (!is_toched && !is_click_for_ability)
+				{
+					startTouch = Input.GetTouch(0);
+					is_toched = true;
+				}
+				else
+				{
+					lastTouch  = Input.GetTouch(0);
+					Vector2 speedVector = startTouch.position - lastTouch.position;
+					controller.show_line(speedVector * speedFactor);
+				}
 			}
-			else
+			else if (Input.touchCount == 0)
 			{
-				lastTouch  = Input.GetTouch(0);
-				Vector2 speedVector = startTouch.position - lastTouch.position;
-				controller.show_line(speedVector * speedFactor);
+				is_click_for_ability = false;
+				if (is_toched)
+				{
+					controller.hide_line();
+					Vector2 speedVector = startTouch.position - lastTouch.position;
+					controller.shoot(speedVector * speedFactor);
+					
+					is_toched = false;
+				}
+				
 			}
 		}
-		else if (Input.touchCount == 0)
+		else if(status == 1)
 		{
-			if (is_toched)
+			if (Input.touchCount == 1)
 			{
-				controller.hide_line();
-				Vector2 speedVector = startTouch.position - lastTouch.position;
-				controller.shoot(speedVector * speedFactor);
-				
-				is_toched = false;
+				GetComponent<GameController>().use_ability();
+				status = 0;
+				is_click_for_ability = true;
 			}
-			
 		}
 	}
 }
