@@ -16,10 +16,11 @@ public class FlyingFish : MonoBehaviour
 	[SerializeField] private float swipeDistance;
 	[SerializeField] private bool is_active;
 	[SerializeField]private bool is_on_octopus = false;
-	[SerializeField] private float jump_to_octopus_speed;
+	
+	[SerializeField] public float jump_to_octopus_speed;
 	
 	[SerializeField] private bool can_use_ability = true;
-	[SerializeField] private Player player;
+	[SerializeField] public GameController controller;
 	
 	
 	
@@ -35,7 +36,6 @@ public class FlyingFish : MonoBehaviour
 	{
 		x_speed = rb.linearVelocityX;
 		y_speed = rb.linearVelocityY;
-		go_to_octopus();
 	}
 	
 	public void use_ability()
@@ -44,6 +44,7 @@ public class FlyingFish : MonoBehaviour
 		{
 			
 			GetComponentInChildren<SpriteRenderer>().color = Color.gray;
+			can_use_ability = false;
 		}
 		
 	}
@@ -52,11 +53,13 @@ public class FlyingFish : MonoBehaviour
 	{
 		if (other.transform.tag == "block")
 		{
-			can_use_ability = false;
-			if (player.status == 1)
+			if (can_use_ability)
 			{
-				player.status = 0;
+				controller.next_fish();
 			}
+			can_use_ability = false;
+			
+			
 			
 		}
 	}
@@ -95,27 +98,22 @@ public class FlyingFish : MonoBehaviour
 	public void drow_line(Vector2 speed)
 	{
 		//is_on_octopus = true;
-		
-		if (is_on_octopus)
-		{
 			GetComponentInChildren<LineDrow>().drow(speed);
-			Vector3 swiped_pos = transform.position - new Vector3(swipeDistance * speed.x, swipeDistance * speed.y, 0) ;
-			GetComponentInChildren<SpriteRenderer>().transform.position = swiped_pos;
-			octopus.transform.position = swiped_pos;
-			octopus.transform.eulerAngles = new Vector3(0, 0, Vector2.Angle(speed, new Vector2(1, 0)) * (speed.y / math.abs(speed.y)));
+			// Vector3 swiped_pos = transform.position - new Vector3(swipeDistance * speed.x, swipeDistance * speed.y, 0) ;
+			// GetComponentInChildren<SpriteRenderer>().transform.position = swiped_pos;
+			// octopus.transform.position = swiped_pos;
+			// octopus.transform.eulerAngles = new Vector3(0, 0, Vector2.Angle(speed, new Vector2(1, 0)) * (speed.y / math.abs(speed.y)));
 			
-		}
+		
 	}
 	
 	
 	public void delete_line()
 	{
-		if (is_on_octopus)
-		{
 			GetComponentInChildren<LineDrow>().delete_line();
 			GetComponentInChildren<SpriteRenderer>().transform.position = transform.position;
-			octopus.transform.position = transform.position;
-		}
+			
+		
 	}
 }
 
