@@ -35,6 +35,7 @@ public class Octopus : MonoBehaviour
 			if((CurrentFish.transform.position - transform.position).magnitude < 0.5)
 			{
 				CurrentFish.jump_to_octopus_speed = 1;
+				CurrentFish.controller.status = 0;
 			}
 		}
 		

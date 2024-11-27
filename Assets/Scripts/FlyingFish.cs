@@ -6,10 +6,10 @@ using UnityEngine;
 
 public class FlyingFish : MonoBehaviour
 {
-	[SerializeField]private float x_speed;
-	[SerializeField]private float y_speed;
+	[SerializeField]public float x_speed;
+	[SerializeField]public float y_speed;
 	[SerializeField]private float damage;
-	[SerializeField]private float gravity;
+	[SerializeField]public float gravity;
 	
 	[SerializeField] private GameObject octopus;
 	
@@ -19,7 +19,7 @@ public class FlyingFish : MonoBehaviour
 	
 	[SerializeField] public float jump_to_octopus_speed;
 	
-	[SerializeField] private bool can_use_ability = true;
+	[SerializeField] public bool can_use_ability = true;
 	[SerializeField] public GameController controller;
 	
 	
@@ -31,14 +31,40 @@ public class FlyingFish : MonoBehaviour
 		rb.gravityScale = 0;
 	}
 
+	public void turnOnOfCollider(bool mode)
+	{
+		if (mode)
+		{
+			foreach(Collider2D col in GetComponents<Collider2D>())
+			{
+				col.enabled = false;
+			}
+		}
+		else
+		{
+			foreach(Collider2D col in GetComponents<Collider2D>())
+			{
+				col.enabled = true;
+			}
+		}
+	}
 	// Update is called once per frame
-	void Update()
+	virtual public void Update()
 	{
 		x_speed = rb.linearVelocityX;
 		y_speed = rb.linearVelocityY;
+		
+		set_rotation();
 	}
 	
-	public void use_ability()
+	public void set_rotation()
+	{
+		Vector2 speed_vector = rb.linearVelocity;
+		float angle = Vector2.Angle(speed_vector, new Vector2(1, 0)) * math.abs(speed_vector.y) / speed_vector.y;
+		transform.eulerAngles = new Vector3(0, 0, angle);
+	}
+	
+	virtual public void use_ability()
 	{
 		if (can_use_ability)
 		{
@@ -79,6 +105,7 @@ public class FlyingFish : MonoBehaviour
 	
 	public void init_fish()
 	{
+		turnOnOfCollider(false);
 		is_active = true;	
 		// transform.position = octopus.transform.position;
 		// rb.MovePosition(octopus.transform.position);

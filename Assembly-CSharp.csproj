@@ -68,14 +68,20 @@
     <Compile Include="Assets\Scripts\GameController.cs" />
     <Compile Include="Assets\Scripts\Block.cs" />
     <Compile Include="Assets\Scripts\FishHolder.cs" />
+    <Compile Include="Assets\Scripts\FishesClasses\EllFish.cs" />
+    <Compile Include="Assets\Scripts\FishesClasses\SwordFish.cs" />
     <Compile Include="Assets\Scripts\LineDrow.cs" />
+    <Compile Include="Assets\Scripts\FishesClasses\Seahorse.cs" />
+    <Compile Include="Assets\Scripts\FishesClasses\FuguFish.cs" />
     <Compile Include="Assets\Scripts\FlyingFish.cs" />
     <Compile Include="Assets\Scripts\LevelsScript.cs" />
+    <Compile Include="Assets\Scripts\FishesClasses\PhantomFish.cs" />
     <Compile Include="Assets\Scripts\Map.cs" />
     <Compile Include="Assets\Scripts\Octopus.cs" />
     <Compile Include="Assets\Scripts\OctopusLegScript.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\sprites\links.txt" />
     <None Include="Assets\MAPS\map1.txt" />
   </ItemGroup>
   <ItemGroup>

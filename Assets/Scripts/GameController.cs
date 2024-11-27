@@ -9,9 +9,10 @@ public class GameController : MonoBehaviour
 	
 	[SerializeField] private List<FlyingFish> fishes;
 	[SerializeField] private int currentFish;
-	[SerializeField] public int status = 0; // 0 - стрелять, 1 - абилка, 2 - конец
+	[SerializeField] public int status = 0; // 0 - стрелять, 1 - абилка, 2 - конец 2, 3 - перезарядка
+	
 	[SerializeField] private bool is_toched = false;
-	private bool is_click_for_ability = false;
+	public bool is_click_for_ability = false;
 	
 	
 	[SerializeField] private Touch startTouch;
@@ -33,6 +34,10 @@ public class GameController : MonoBehaviour
 	[SerializeField] private FishHolder fishes_slot;
 	[SerializeField] private float delta_x_fishes;
 	
+	[SerializeField] private Vector2 max_speed_vector;
+	
+	[SerializeField] public GameObject portal;
+	
 	void Start()
 	{
 		init_level();
@@ -50,19 +55,38 @@ public class GameController : MonoBehaviour
 	public void use_ability()
 	{
 		fishes[currentFish].use_ability();
-		next_fish();
+		if(fishes[currentFish] is PhantomFish)
+		{
+			PhantomFish pf = (PhantomFish)fishes[currentFish];
+			Debug.Log(pf.counter_of_use);
+			
+			if (pf.counter_of_use == 2)
+			{
+				status = 3;
+				next_fish();
+			}
+			
+		}
+		else	
+		{
+			status = 3;
+			next_fish();
+		}
+		
+
 	}
 	
 	public void shoot(Vector2 speed)
 	{
-		
+		Debug.Log(speed);
 		octopus.change_position(octopus.octopus_start_pos);
 		octopus.transform.eulerAngles = new Vector3(0, 0, 0);
 		if(status != 2)
 		{
 			
-			if (speed.magnitude > 3)
+			if (speed.x > 3)
 			{
+				fishes[currentFish].transform.SetParent(transform);
 				octopus.is_magnite = false;
 				status = 1;
 				fishes[currentFish].start_fly(speed);
@@ -98,7 +122,7 @@ public class GameController : MonoBehaviour
 			status = 2;
 			return;
 		}
-		status = 0;
+		status = 3;
 		fishes[currentFish].init_fish();
 		
 		
@@ -119,7 +143,7 @@ public class GameController : MonoBehaviour
 					is_toched = false;
 					// startTouch = Input.GetTouch(0);
 					// is_toched = true;
-			}
+				}	
 				else if (!is_toched)
 				{
 					startTouch = Input.GetTouch(0);
@@ -130,8 +154,32 @@ public class GameController : MonoBehaviour
 					is_toched = true;
 					lastTouch  = Input.GetTouch(0);
 					Vector2 speedVector = startTouch.position - lastTouch.position;
+
+					if (speedVector.x >= max_speed_vector.x)
+					{
+						speedVector.x = max_speed_vector.x;
+					}
+					else if (speedVector.x < 50)
+					{
+						speedVector.x = 50;
+					}
+					if (speedVector.y <= -max_speed_vector.y)
+					{
+						speedVector.y = -max_speed_vector.y;
+					}
+					else if(speedVector.y >=  200)
+					{
+						speedVector.y = 200;
+					}
+					if((speedVector * speedFactor).magnitude > 3)
+					{
+						show_line(speedVector * speedFactor);
+					}
+					else
+					{
+						hide_line();
+					}
 					
-					show_line(speedVector * speedFactor);
 					octopus.change_position(speedVector);
 					
 				}
@@ -143,6 +191,22 @@ public class GameController : MonoBehaviour
 				{
 					hide_line();
 					Vector2 speedVector = startTouch.position - lastTouch.position;
+					if (speedVector.x >= max_speed_vector.x)
+					{
+						speedVector.x = max_speed_vector.x;
+					}
+					else if (speedVector.x < 50)
+					{
+						speedVector.x = 50;
+					}
+					if (speedVector.y <= -max_speed_vector.y)
+					{
+						speedVector.y = -max_speed_vector.y;
+					}
+					else if(speedVector.y >=  200)
+					{
+						speedVector.y = 200;
+					}
 					shoot(speedVector * speedFactor);
 					
 					is_toched = false;
@@ -152,12 +216,17 @@ public class GameController : MonoBehaviour
 		}
 		else if(status == 1)
 		{
-			if (Input.touchCount == 1)
+			if (Input.touchCount == 1 && !is_click_for_ability)
 			{
 				use_ability();
-				status = 0;
+				
 				is_click_for_ability = true;
 			}
+			else if(Input.touchCount == 0)
+			{
+				is_click_for_ability = false;
+			}
+
 		}
 	}
 
@@ -175,10 +244,12 @@ public class GameController : MonoBehaviour
 		foreach(int fish in map.fishes)
 		{
 			GameObject obj = Instantiate(fishes_prefabs[fish], new Vector3(fishes_slot.transform.position.x - counter * delta_x_fishes, fishes_slot.transform.position.y, fishes_slot.transform.position.z), Quaternion.identity);
+			
 			counter += 1;
 			obj.transform.SetParent(fishes_slot.transform);
 			FlyingFish fish_script = obj.GetComponentInChildren<FlyingFish>();
 			fish_script.controller = this;
+			fish_script.turnOnOfCollider(true);
 			fishes.Add(fish_script);
 		}
 		
