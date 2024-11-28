@@ -73,6 +73,7 @@
     <Compile Include="Assets\Scripts\FishesClasses\PhantomFish.cs" />
     <Compile Include="Assets\Scripts\Map.cs" />
     <Compile Include="Assets\Scripts\Octopus.cs" />
+    <Compile Include="Assets\Scripts\EnamyScript.cs" />
     <Compile Include="Assets\Scripts\OctopusLegScript.cs" />
   </ItemGroup>
   <ItemGroup>
