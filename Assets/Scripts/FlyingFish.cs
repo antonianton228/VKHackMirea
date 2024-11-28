@@ -1,3 +1,4 @@
+using NUnit.Framework.Internal.Filters;
 using Unity.Mathematics;
 using Unity.VisualScripting;
 using UnityEditor.IMGUI.Controls;
@@ -105,7 +106,6 @@ public class FlyingFish : MonoBehaviour
 	
 	public void init_fish()
 	{
-		turnOnOfCollider(false);
 		is_active = true;	
 		// transform.position = octopus.transform.position;
 		// rb.MovePosition(octopus.transform.position);

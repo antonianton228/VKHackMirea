@@ -26,7 +26,7 @@ public class GameController : MonoBehaviour
 	
 	[SerializeField] private List<GameObject> fishes_prefabs;
 	[SerializeField] private List<GameObject> backgrounds;
-	[SerializeField] private List<GameObject> bricks;
+	[SerializeField] private List<GameObject> maps;
 	
 	[SerializeField] private Transform ZeroCoord;
 	[SerializeField] private MapLevel map;
@@ -86,6 +86,7 @@ public class GameController : MonoBehaviour
 			
 			if (speed.x > 3)
 			{
+				fishes[currentFish].turnOnOfCollider(false);
 				fishes[currentFish].transform.SetParent(transform);
 				octopus.is_magnite = false;
 				status = 1;
@@ -235,11 +236,9 @@ public class GameController : MonoBehaviour
 		string json = File.ReadAllText("Assets/MAPS/" + level_json_path);
 		map =  JsonUtility.FromJson<MapLevel>(json);
 		
-		foreach(Break block in map.map)
-		{
-			GameObject obj = Instantiate(bricks[block.type], new Vector3(ZeroCoord.position.x + block.x, ZeroCoord.position.y + block.y, ZeroCoord.position.z), Quaternion.identity);
-			obj.transform.eulerAngles = new Vector3(0, 0, block.angle);
-		}
+		
+		Instantiate(maps[map.map], new Vector3(0, 0, 0), Quaternion.identity);
+			
 		int counter = 0;
 		foreach(int fish in map.fishes)
 		{
@@ -252,8 +251,6 @@ public class GameController : MonoBehaviour
 			fish_script.turnOnOfCollider(true);
 			fishes.Add(fish_script);
 		}
-		
-		
 	}
 
 }

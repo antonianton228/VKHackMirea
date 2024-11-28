@@ -3,38 +3,5 @@
        5, 4, 3, 2, 1, 0
     ],
     "background": 0,
-    "map": [
-        {
-            "type": 0,
-            "x": 2,
-            "y": 0,
-            "x_size": 1,
-            "y_size": 1,
-            "angle": 0
-        },
-        {
-            "type": 0,
-            "x": 2.75,
-            "y": 0,
-            "x_size": 1,
-            "y_size": 1,
-            "angle": 0
-        },
-        {
-            "type": 0,
-            "x": 3.5,
-            "y": 0,
-            "x_size": 1,
-            "y_size": 1,
-            "angle": 0
-        },
-        {
-            "type": 0,
-            "x": 2.75,
-            "y": 1.25,
-            "x_size": 1,
-            "y_size": 1,
-            "angle": 90
-        }
-    ]
+    "map": 0
 }
