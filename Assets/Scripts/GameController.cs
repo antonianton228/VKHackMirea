@@ -38,11 +38,17 @@ public class GameController : MonoBehaviour
 	
 	[SerializeField] public GameObject portal;
 	
+	[SerializeField] private bool is_win = false;	
+	
+	private EnamyScript[] all_enamys;
+	
 	void Start()
 	{
 		init_level();
 		fishes[currentFish].init_fish();
 		octopus.CurrentFish = fishes[currentFish];
+		
+		all_enamys = maps[map.map].transform.GetComponentsInChildren<EnamyScript>();
 		
 	}
 
@@ -50,6 +56,24 @@ public class GameController : MonoBehaviour
 	void Update()
 	{
 		input_update();
+		win_check();
+	}
+	
+	private void win_check()
+	{
+		int counter = 0;
+		foreach(EnamyScript enamy in all_enamys)
+		{
+			if (enamy.is_alive)
+			{
+				counter += 1;
+			}
+		}
+		if (counter == 0)
+		{
+			is_win = true;
+			status = 2;
+		}
 	}
 	
 	public void use_ability()
