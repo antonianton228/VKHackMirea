@@ -6,6 +6,9 @@ public class Block : MonoBehaviour
 	// Start is called once before the first execution of Update after the MonoBehaviour is created
 	[SerializeField] private float hp;
 	[SerializeField] private float protection;
+	[SerializeField] public GameController controller;
+	[SerializeField] public float points_for_break = 0;
+	
 	void Start()
 	{
 		
@@ -35,6 +38,7 @@ public class Block : MonoBehaviour
 	
 	private void distructive()
 	{
+		controller.current_score += points_for_break;
 		Destroy(gameObject);
 	}
 	
