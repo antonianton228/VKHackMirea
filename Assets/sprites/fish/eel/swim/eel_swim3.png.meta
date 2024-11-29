@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      eel_swim3_0: -2472746945001081695
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

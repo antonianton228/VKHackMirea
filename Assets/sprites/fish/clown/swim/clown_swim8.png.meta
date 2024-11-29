@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      clown_swim8_0: -314753091258109717
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

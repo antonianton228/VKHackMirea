@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      bottlecrack_0: -9064832315116334137
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

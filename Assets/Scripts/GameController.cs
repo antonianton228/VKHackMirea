@@ -8,6 +8,7 @@ using UnityEngine;
 public class GameController : MonoBehaviour
 {
 	
+	[SerializeField] public float current_score = 0;
 	[SerializeField] private List<FlyingFish> fishes;
 	[SerializeField] private int currentFish;
 	[SerializeField] public int status = 0; // 0 - стрелять, 1 - абилка, 2 - конец 2, 3 - перезарядка
@@ -307,6 +308,13 @@ public class GameController : MonoBehaviour
 		
 		
 		GameObject curr_map = Instantiate(maps[map.map], new Vector3(0, 0, 0), Quaternion.identity);
+		foreach(Block blok in curr_map.GetComponentsInChildren<Block>())
+		{
+		    UnityEngine.Debug.Log("Block");
+			blok.controller = this;
+		}
+		
+		
 		currentMap = curr_map;
 		int counter = 0;
 		foreach(int fish in map.fishes)

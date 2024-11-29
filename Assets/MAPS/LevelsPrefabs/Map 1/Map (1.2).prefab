@@ -210,6 +210,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hp: 100
   protection: 1
+  controller: {fileID: 0}
+  points_for_break: 0
 --- !u!212 &7533702067660281032
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -341,6 +343,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hp: 100
   protection: 1
+  controller: {fileID: 0}
+  points_for_break: 0
 --- !u!212 &8621246226023660200
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -605,6 +609,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hp: 100
   protection: 1
+  controller: {fileID: 0}
+  points_for_break: 1
 --- !u!212 &9204315394822168795
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -735,6 +741,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hp: 100
   protection: 1
+  controller: {fileID: 0}
+  points_for_break: 1
 --- !u!212 &4739631116967657392
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -865,6 +873,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hp: 100
   protection: 1
+  controller: {fileID: 0}
+  points_for_break: 0
 --- !u!212 &4828022982325113124
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -996,6 +1006,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hp: 100
   protection: 1
+  controller: {fileID: 0}
+  points_for_break: 1
 --- !u!212 &4891613021001672684
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1395,6 +1407,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hp: 100
   protection: 1
+  controller: {fileID: 0}
+  points_for_break: 0
 --- !u!212 &6371176906220976705
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1659,6 +1673,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hp: 100
   protection: 1
+  controller: {fileID: 0}
+  points_for_break: 0
 --- !u!212 &3301761500648247444
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2231,6 +2247,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hp: 100
   protection: 1
+  controller: {fileID: 0}
+  points_for_break: 1
 --- !u!212 &4281964661773709772
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2533,6 +2551,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hp: 100
   protection: 1
+  controller: {fileID: 0}
+  points_for_break: 0
 --- !u!212 &889549353308308858
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2663,6 +2683,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hp: 100
   protection: 1
+  controller: {fileID: 0}
+  points_for_break: 1
 --- !u!212 &1057935909981324144
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2917,6 +2939,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hp: 100
   protection: 1
+  controller: {fileID: 0}
+  points_for_break: 0
 --- !u!212 &1170270576243776778
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3047,6 +3071,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hp: 100
   protection: 1
+  controller: {fileID: 0}
+  points_for_break: 1
 --- !u!212 &1179532774879972993
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3177,6 +3203,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hp: 100
   protection: 1
+  controller: {fileID: 0}
+  points_for_break: 1
 --- !u!212 &1326795833874462627
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3308,6 +3336,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hp: 100
   protection: 1
+  controller: {fileID: 0}
+  points_for_break: 1
 --- !u!212 &1729872065983923931
 SpriteRenderer:
   m_ObjectHideFlags: 0
