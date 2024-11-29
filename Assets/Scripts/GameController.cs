@@ -3,6 +3,7 @@ using System.IO;
 using Unity.VisualScripting;
 using System.Diagnostics;
 using UnityEngine;
+using Unity.Mathematics;
 
 
 public class GameController : MonoBehaviour
@@ -49,6 +50,9 @@ public class GameController : MonoBehaviour
 	
 	[SerializeField] private UIController uicontroller;
 	
+	[SerializeField] private float angle_for_up_octopus;
+	[SerializeField] private float angle_for_down_octopus;
+	
 	public Save save;
 	
 	void Start()
@@ -61,7 +65,8 @@ public class GameController : MonoBehaviour
 		
 		uicontroller = GetComponent<UIController>();
 		
-		
+		angle_for_up_octopus = angle_for_up_octopus * 3.14f / 180;
+		angle_for_down_octopus = angle_for_down_octopus * 3.14f / 180;
 	}
 
 	// Update is called once per frame
@@ -225,9 +230,22 @@ public class GameController : MonoBehaviour
 				}
 				else
 				{
+					
 					is_toched = true;
 					lastTouch  = Input.GetTouch(0);
 					Vector2 speedVector = startTouch.position - lastTouch.position;
+					UnityEngine.Debug.Log(speedVector);
+					
+					
+					if (math.tan(angle_for_down_octopus) * speedVector.x < speedVector.y)
+					{
+						speedVector.y = math.tan(angle_for_down_octopus) * speedVector.x;
+					}
+					
+					if (-math.tan(angle_for_up_octopus) * speedVector.x > speedVector.y)
+					{
+						speedVector.y = -math.tan(angle_for_up_octopus) * speedVector.x;
+					}
 
 					if (speedVector.x >= max_speed_vector.x)
 					{

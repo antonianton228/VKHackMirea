@@ -78,6 +78,7 @@
     <Compile Include="Assets\Scripts\FishesClasses\FuguFish.cs" />
     <Compile Include="Assets\Scripts\FlyingFish.cs" />
     <Compile Include="Assets\Scripts\UIController.cs" />
+    <Compile Include="Assets\Scripts\BackGroundActive.cs" />
     <Compile Include="Assets\Scripts\FlyingBirdScript.cs" />
     <Compile Include="Assets\Scripts\LevelsScript.cs" />
     <Compile Include="Assets\Scripts\FishesClasses\PhantomFish.cs" />
