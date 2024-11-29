@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      enemy_good_breathe4_0: 3440657283294858574
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

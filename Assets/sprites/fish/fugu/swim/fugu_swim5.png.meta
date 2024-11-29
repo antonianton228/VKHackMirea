@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      fugu_swim5_0: -5918974964263668154
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

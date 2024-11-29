@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      stone_plank_short_0: -961407991548816193
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

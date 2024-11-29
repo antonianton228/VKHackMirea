@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      stonefish10_0: 6039932398280216935
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

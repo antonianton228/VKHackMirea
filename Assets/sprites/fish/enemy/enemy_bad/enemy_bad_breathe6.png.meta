@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      enemy_bad_breathe6_0: -4006368544052125145
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

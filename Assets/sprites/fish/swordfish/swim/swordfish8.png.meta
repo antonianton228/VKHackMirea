@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      swordfish8_0: -2582228121744624665
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

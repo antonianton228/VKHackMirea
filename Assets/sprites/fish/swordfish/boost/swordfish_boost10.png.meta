@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      swordfish_boost10_0: 3039565370726889645
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
