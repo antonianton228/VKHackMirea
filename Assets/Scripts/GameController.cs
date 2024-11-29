@@ -49,6 +49,8 @@ public class GameController : MonoBehaviour
 	
 	[SerializeField] private UIController uicontroller;
 	
+	public Save save;
+	
 	void Start()
 	{
 		init_level();
@@ -58,6 +60,7 @@ public class GameController : MonoBehaviour
 		all_enamys = currentMap.GetComponentsInChildren<EnamyScript>();
 		
 		uicontroller = GetComponent<UIController>();
+		
 		
 	}
 
@@ -303,14 +306,18 @@ public class GameController : MonoBehaviour
 
 	private void init_level()
 	{
-		string json = File.ReadAllText("Assets/MAPS/" + level_json_path);
+		string json = File.ReadAllText("Assets/Save.json");
+		save = JsonUtility.FromJson<Save>(json);
+		level_json_path = save.MapsPathsList[save.current_level];
+		
+		json = File.ReadAllText("Assets/MAPS/" + level_json_path);
 		map =  JsonUtility.FromJson<MapLevel>(json);
 		
 		
 		GameObject curr_map = Instantiate(maps[map.map], new Vector3(0, 0, 0), Quaternion.identity);
 		foreach(Block blok in curr_map.GetComponentsInChildren<Block>())
 		{
-		    UnityEngine.Debug.Log("Block");
+			UnityEngine.Debug.Log("Block");
 			blok.controller = this;
 		}
 		
