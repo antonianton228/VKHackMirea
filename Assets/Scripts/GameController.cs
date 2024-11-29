@@ -233,7 +233,7 @@ public class GameController : MonoBehaviour
 
 	private void init_level()
 	{
-		string json = File.ReadAllText("Assets/MAPS/" + level_json_path);
+		string json = File.ReadAllText("Assets/MAPS/Maps" + level_json_path);
 		map =  JsonUtility.FromJson<MapLevel>(json);
 		
 		
