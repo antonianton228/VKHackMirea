@@ -140,7 +140,6 @@ public class FlyingFish : MonoBehaviour
 			GetComponentInChildren<LineDrow>().delete_line();
 			GetComponentInChildren<SpriteRenderer>().transform.position = transform.position;
 			
-		
 	}
 }
 
