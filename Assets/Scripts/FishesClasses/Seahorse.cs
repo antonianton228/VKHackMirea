@@ -9,7 +9,7 @@ public class Seahorse : FlyingFish
    	if (can_use_ability)
 		{
 			transform.localScale = new Vector3(transform.localScale.x, -transform.localScale.y, transform.localScale.z);
-		
+			rb.linearVelocityY = -rb.linearVelocityY;
 			rb.gravityScale = 1;
 			gravity = 1;
 			can_use_ability = false;

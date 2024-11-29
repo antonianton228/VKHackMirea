@@ -25,9 +25,10 @@ public class EnamyScript : MonoBehaviour
 	}
 	
 	private void OnCollisionEnter2D(Collision2D other) {
+		Debug.Log((other.transform.GetComponentInParent<Rigidbody2D>().linearVelocity * other.transform.GetComponentInParent<Rigidbody2D>().mass  - rb.linearVelocity * rb.mass).magnitude);
 		if(other.transform.tag == "block")
 		{
-			if (math.abs((other.transform.GetComponentInParent<Rigidbody2D>().linearVelocity - rb.linearVelocity).magnitude) >= speed_for_death)
+			if (math.abs((other.transform.GetComponentInParent<Rigidbody2D>().linearVelocity * other.transform.GetComponentInParent<Rigidbody2D>().mass  - rb.linearVelocity * rb.mass).magnitude) >= speed_for_death)
 			{
 				death();
 			}

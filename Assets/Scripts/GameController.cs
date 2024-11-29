@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using System.IO;
 using Unity.VisualScripting;
+using System.Diagnostics;
 using UnityEngine;
 
 
@@ -38,11 +39,24 @@ public class GameController : MonoBehaviour
 	
 	[SerializeField] public GameObject portal;
 	
+	[SerializeField] private bool is_win = false;	
+	
+	[SerializeField] private EnamyScript[] all_enamys;
+	private Stopwatch watch; 
+	private GameObject currentMap;
+	private bool is_timer_started = false;
+	
+	private UIController uicontroller;
+	
 	void Start()
 	{
 		init_level();
 		fishes[currentFish].init_fish();
 		octopus.CurrentFish = fishes[currentFish];
+		
+		all_enamys = currentMap.GetComponentsInChildren<EnamyScript>();
+		
+		uicontroller = GetComponent<UIController>();
 		
 	}
 
@@ -50,6 +64,63 @@ public class GameController : MonoBehaviour
 	void Update()
 	{
 		input_update();
+		win_check();
+		if (status == 2)
+		{
+			ender();
+		}
+		
+	}
+	
+	
+	private void ender()
+	{
+		if(!is_timer_started)
+		{
+			watch = Stopwatch.StartNew();
+			is_timer_started = true;
+		}
+		else
+		{
+			if (is_win)
+			{
+				end_screen();
+			}
+			else if(watch.ElapsedMilliseconds > 3000)
+			{
+				end_screen();
+			}
+		}
+	}
+	
+	
+	private void end_screen()
+	{
+		if (is_win)
+		{
+			uicontroller.show_win_canvs();
+		}
+		else
+		{
+			uicontroller.show_loose_canvs();
+		}
+	}
+	
+	private void win_check()
+	{
+		int counter = 0;
+		foreach(EnamyScript enamy in all_enamys)
+		{
+			if (enamy.is_alive)
+			{
+				counter += 1;
+			}
+		}
+		if (counter == 0)
+		{
+			is_win = true;
+			status = 2;
+		}
 	}
 	
 	public void use_ability()
@@ -58,7 +129,6 @@ public class GameController : MonoBehaviour
 		if(fishes[currentFish] is PhantomFish)
 		{
 			PhantomFish pf = (PhantomFish)fishes[currentFish];
-			Debug.Log(pf.counter_of_use);
 			
 			if (pf.counter_of_use == 2)
 			{
@@ -78,7 +148,6 @@ public class GameController : MonoBehaviour
 	
 	public void shoot(Vector2 speed)
 	{
-		Debug.Log(speed);
 		octopus.change_position(octopus.octopus_start_pos);
 		octopus.transform.eulerAngles = new Vector3(0, 0, 0);
 		if(status != 2)
@@ -233,12 +302,12 @@ public class GameController : MonoBehaviour
 
 	private void init_level()
 	{
-		string json = File.ReadAllText("Assets/MAPS/Maps" + level_json_path);
+		string json = File.ReadAllText("Assets/MAPS/" + level_json_path);
 		map =  JsonUtility.FromJson<MapLevel>(json);
 		
 		
-		Instantiate(maps[map.map], new Vector3(0, 0, 0), Quaternion.identity);
-			
+		GameObject curr_map = Instantiate(maps[map.map], new Vector3(0, 0, 0), Quaternion.identity);
+		currentMap = curr_map;
 		int counter = 0;
 		foreach(int fish in map.fishes)
 		{

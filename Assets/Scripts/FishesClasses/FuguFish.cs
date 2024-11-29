@@ -9,7 +9,7 @@ public class FuguFish : FlyingFish
 		if (can_use_ability)
 			{
 				transform.localScale = transform.localScale * scale_boost_coeff;
-				// rb.mass = rb.mass / 2;
+				rb.mass = rb.mass / 2;
 				//rb.linearVelocity = rb.linearVelocity / 2;
 				can_use_ability = false;
 			}
