@@ -46,7 +46,7 @@ public class GameController : MonoBehaviour
 	private GameObject currentMap;
 	private bool is_timer_started = false;
 	
-	private UIController uicontroller;
+	[SerializeField] private UIController uicontroller;
 	
 	void Start()
 	{

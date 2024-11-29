@@ -4,8 +4,8 @@ public class UIController : MonoBehaviour
 {
 	// Start is called once before the first execution of Update after the MonoBehaviour is created
 	
-	[SerializeField] private Canvas winCanvas;
-	[SerializeField] private Canvas looseCanvas;
+	[SerializeField] private GameObject winCanvas;
+	[SerializeField] private GameObject looseCanvas;
 		void Start()
 	{
 		
@@ -19,11 +19,11 @@ public class UIController : MonoBehaviour
 	
 	public void show_win_canvs()
 	{
-		winCanvas.enabled = true;
+		winCanvas.SetActive(true);
 	}
 	
 	public void show_loose_canvs()
 	{
-		looseCanvas.enabled = true;
+		looseCanvas.SetActive(true);
 	}
 }
