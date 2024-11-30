@@ -234,8 +234,6 @@ public class GameController : MonoBehaviour
 					is_toched = true;
 					lastTouch  = Input.GetTouch(0);
 					Vector2 speedVector = startTouch.position - lastTouch.position;
-					UnityEngine.Debug.Log(speedVector);
-					
 					
 					if (math.tan(angle_for_down_octopus) * speedVector.x < speedVector.y)
 					{
@@ -263,6 +261,8 @@ public class GameController : MonoBehaviour
 					{
 						speedVector.y = 200;
 					}
+					
+					
 					if((speedVector * speedFactor).magnitude > 3)
 					{
 						show_line(speedVector * speedFactor);

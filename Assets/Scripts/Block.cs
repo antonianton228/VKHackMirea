@@ -38,6 +38,13 @@ public class Block : MonoBehaviour
 	
 	private void distructive()
 	{
+		
+		Vector3 anchorPoint = new Vector3(1, 2, 3);
+
+	Vector3 normalDirection = Vector3.right;
+
+	var pieces = MeshCut.Cut(gameObject, anchorPoint, normalDirection, capMaterial);
+		
 		controller.current_score += points_for_break;
 		Destroy(gameObject);
 	}
