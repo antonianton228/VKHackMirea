@@ -1638,7 +1638,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5311933741558305415, guid: 0fda044a845a42d4f983c9bf6c638581, type: 3}
       propertyPath: level_json_path
-      value: Maps/Map 1/map 1.3.txt
+      value: Maps/Map 1/map 1.1.txt
       objectReference: {fileID: 0}
     - target: {fileID: 5311933741558305415, guid: 0fda044a845a42d4f983c9bf6c638581, type: 3}
       propertyPath: maps.Array.size
