@@ -3,6 +3,7 @@ using System.IO;
 using Unity.VisualScripting;
 using System.Diagnostics;
 using UnityEngine;
+using Unity.Mathematics;
 
 
 public class GameController : MonoBehaviour
@@ -49,6 +50,11 @@ public class GameController : MonoBehaviour
 	
 	[SerializeField] private UIController uicontroller;
 	
+	[SerializeField] private float angle_for_up_octopus;
+	[SerializeField] private float angle_for_down_octopus;
+	
+	public Save save;
+	
 	void Start()
 	{
 		init_level();
@@ -59,6 +65,8 @@ public class GameController : MonoBehaviour
 		
 		uicontroller = GetComponent<UIController>();
 		
+		angle_for_up_octopus = angle_for_up_octopus * 3.14f / 180;
+		angle_for_down_octopus = angle_for_down_octopus * 3.14f / 180;
 	}
 
 	// Update is called once per frame
@@ -222,9 +230,22 @@ public class GameController : MonoBehaviour
 				}
 				else
 				{
+					
 					is_toched = true;
 					lastTouch  = Input.GetTouch(0);
 					Vector2 speedVector = startTouch.position - lastTouch.position;
+					UnityEngine.Debug.Log(speedVector);
+					
+					
+					if (math.tan(angle_for_down_octopus) * speedVector.x < speedVector.y)
+					{
+						speedVector.y = math.tan(angle_for_down_octopus) * speedVector.x;
+					}
+					
+					if (-math.tan(angle_for_up_octopus) * speedVector.x > speedVector.y)
+					{
+						speedVector.y = -math.tan(angle_for_up_octopus) * speedVector.x;
+					}
 
 					if (speedVector.x >= max_speed_vector.x)
 					{
@@ -303,14 +324,18 @@ public class GameController : MonoBehaviour
 
 	private void init_level()
 	{
-		string json = File.ReadAllText("Assets/MAPS/" + level_json_path);
+		string json = File.ReadAllText("Assets/Save.json");
+		save = JsonUtility.FromJson<Save>(json);
+		level_json_path = save.MapsPathsList[save.current_level];
+		
+		json = File.ReadAllText("Assets/MAPS/" + level_json_path);
 		map =  JsonUtility.FromJson<MapLevel>(json);
 		
 		
 		GameObject curr_map = Instantiate(maps[map.map], new Vector3(0, 0, 0), Quaternion.identity);
 		foreach(Block blok in curr_map.GetComponentsInChildren<Block>())
 		{
-		    UnityEngine.Debug.Log("Block");
+			UnityEngine.Debug.Log("Block");
 			blok.controller = this;
 		}
 		

@@ -1,4 +1,7 @@
+using System.IO;
+using Unity.Mathematics;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class UIController : MonoBehaviour
 {
@@ -25,5 +28,23 @@ public class UIController : MonoBehaviour
 	public void show_loose_canvs()
 	{
 		looseCanvas.SetActive(true);
+	}
+	
+	public void to_main_menu()
+	{
+		SceneManager.LoadScene("Menu");
+	}
+	
+	public void next_level()
+	{
+		Save save = GetComponent<GameController>().save;
+		save.current_level += 1;
+		save.current_level = math.min(save.current_level, save.max_level);
+		save.max_opened_level = math.max(save.current_level, save.max_opened_level);
+		
+		File.WriteAllText("Assets/Save.json", JsonUtility.ToJson(save));
+		
+		
+		SceneManager.LoadScene("CrashScene");
 	}
 }
