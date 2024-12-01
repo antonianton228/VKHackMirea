@@ -342,6 +342,8 @@ public class GameController : MonoBehaviour
 		json = File.ReadAllText("Assets/MAPS/" + level_json_path);
 		map =  JsonUtility.FromJson<MapLevel>(json);
 		
+		GameObject background = Instantiate(backgrounds[map.background], new Vector3(0, 0, 0), Quaternion.identity);
+		
 		
 		GameObject curr_map = Instantiate(maps[map.map], new Vector3(0, 0, 0), Quaternion.identity);
 		foreach(Block blok in curr_map.GetComponentsInChildren<Block>())

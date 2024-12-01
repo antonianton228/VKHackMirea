@@ -1714,7 +1714,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e9b42f0814c655449436bbd45a273c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  backend_adress: http://localhost:3002/
+  backend_adress: https://b8bf8dcbc2664a8bd7524ea604a0ee56.loophole.site/
   scoreboard:
     status: 0
     scoreboard: []

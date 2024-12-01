@@ -43,7 +43,6 @@ public class AuthAndScoreScript : MonoBehaviour
 		
 		scoreboard.status = -1;
 		StartCoroutine(get_scoreboard(backend_adress + "get_score_table?count=15"));
-		StartCoroutine(authVk("anton", "aaa"));
 	}
 
 	private static void OnTokenResponse(TokenResponse response)
