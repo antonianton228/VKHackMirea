@@ -9,7 +9,7 @@ using Unity.Mathematics;
 public class GameController : MonoBehaviour
 {
 	
-	[SerializeField] public float current_score = 0;
+	[SerializeField] public int current_score = 0;
 	[SerializeField] private List<FlyingFish> fishes;
 	[SerializeField] private int currentFish;
 	[SerializeField] public int status = 0; // 0 - стрелять, 1 - абилка, 2 - конец 2, 3 - перезарядка
@@ -107,6 +107,17 @@ public class GameController : MonoBehaviour
 	{
 		if (is_win)
 		{
+			foreach(FlyingFish fish in fishes)
+			{
+				if (fish.can_use_ability)
+				{
+					current_score += fish.points_for_save;
+				}
+			}
+			
+			
+			
+			
 			uicontroller.show_win_canvs();
 		}
 		else
@@ -330,6 +341,8 @@ public class GameController : MonoBehaviour
 		
 		json = File.ReadAllText("Assets/MAPS/" + level_json_path);
 		map =  JsonUtility.FromJson<MapLevel>(json);
+		
+		GameObject background = Instantiate(backgrounds[map.background], new Vector3(0, 0, 0), Quaternion.identity);
 		
 		
 		GameObject curr_map = Instantiate(maps[map.map], new Vector3(0, 0, 0), Quaternion.identity);

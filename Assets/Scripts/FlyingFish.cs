@@ -23,11 +23,12 @@ public class FlyingFish : MonoBehaviour
 	[SerializeField] public bool can_use_ability = true;
 	[SerializeField] public GameController controller;
 	
+	[SerializeField] public int points_for_save;
 	
 	
 	public Rigidbody2D rb;
 	// Start is called once before the first execution of Update after the MonoBehaviour is created
-	void Start()
+	virtual public void Start()
 	{
 		rb.gravityScale = 0;
 	}
