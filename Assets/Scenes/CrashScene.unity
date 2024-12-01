@@ -696,6 +696,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   winCanvas: {fileID: 963504302}
   looseCanvas: {fileID: 841379357}
+--- !u!114 &1197967622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1197967618}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 418d12e8503cc3e48885c92d1b6415c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  backend_adress: http://localhost:3002
 --- !u!1001 &1472480098
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1439,6 +1452,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1400167658867678050, guid: 0fda044a845a42d4f983c9bf6c638581, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1197967621}
+    - targetCorrespondingSourceObject: {fileID: 1400167658867678050, guid: 0fda044a845a42d4f983c9bf6c638581, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1197967622}
   m_SourcePrefab: {fileID: 100100000, guid: 0fda044a845a42d4f983c9bf6c638581, type: 3}
 --- !u!1001 &2787659685243194582
 PrefabInstance:

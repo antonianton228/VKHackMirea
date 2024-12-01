@@ -23,6 +23,7 @@ public class FlyingFish : MonoBehaviour
 	[SerializeField] public bool can_use_ability = true;
 	[SerializeField] public GameController controller;
 	
+	[SerializeField] public int points_for_save;
 	
 	
 	public Rigidbody2D rb;

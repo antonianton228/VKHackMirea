@@ -7,7 +7,7 @@ public class Block : MonoBehaviour
 	[SerializeField] private float hp;
 	[SerializeField] private float protection;
 	[SerializeField] public GameController controller;
-	[SerializeField] public float points_for_break = 0;
+	[SerializeField] public int points_for_break = 0;
 	
 	void Start()
 	{
@@ -38,7 +38,7 @@ public class Block : MonoBehaviour
 	
 	private void distructive()
 	{
-		
+		controller.current_score += points_for_break;
 
 		Destroy(gameObject);
 	}

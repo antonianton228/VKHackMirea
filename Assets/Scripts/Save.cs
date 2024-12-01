@@ -12,5 +12,10 @@ public struct Save
 	public int max_level;
 	public int max_opened_level;
 	
+	public int score;
+	
+	public bool is_auth;
+	
+	public string vkid;
 	
 }
