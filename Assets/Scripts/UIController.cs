@@ -44,6 +44,13 @@ public class UIController : MonoBehaviour
 		SceneManager.LoadScene("Menu");
 	}
 	
+	public void restart()
+	{
+		
+
+		SceneManager.LoadScene("CrashScene");
+	}
+	
 	public void next_level()
 	{
 		GameController controller = GetComponent<GameController>();

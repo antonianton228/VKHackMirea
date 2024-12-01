@@ -61,6 +61,7 @@ public class AuthAndScoreScript : MonoBehaviour
 		else
 		{
 			VKAuth.SignIn(OnSignIn);
+			
 			SucseccfulAuthUI.SetActive(true);
 		}
 	}
@@ -74,7 +75,7 @@ public class AuthAndScoreScript : MonoBehaviour
 		Save save = JsonUtility.FromJson<Save>(json);
 		save.is_auth = true;
 		save.vkid = userInfo.id.ToString();
-		
+		authVk(userInfo.first_name, save.vkid);
 		
 		StartCoroutine(authVk(userInfo.first_name, userInfo.id.ToString()));
 		
@@ -112,6 +113,10 @@ public class AuthAndScoreScript : MonoBehaviour
 		uwr.downloadHandler = (DownloadHandler)new DownloadHandlerBuffer();
 		uwr.SetRequestHeader("Content-Type", "application/json");
 
+		
+		
+		
+		
 		//Send the request then wait here until it returns
 		yield return uwr.SendWebRequest();
 
