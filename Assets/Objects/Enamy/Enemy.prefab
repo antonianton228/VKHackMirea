@@ -121,7 +121,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   is_alive: 1
-  speed_for_death: 0.02
+  speed_for_death: 30
   rb: {fileID: 0}
 --- !u!1001 &3559346325204753179
 PrefabInstance:

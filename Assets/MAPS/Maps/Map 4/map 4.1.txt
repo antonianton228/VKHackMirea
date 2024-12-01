@@ -1,0 +1,7 @@
+{
+    "fishes": [
+       3, 1, 2
+    ],
+    "background": 0,
+    "map": 9
+}

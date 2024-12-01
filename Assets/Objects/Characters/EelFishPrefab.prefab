@@ -113,7 +113,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   x_speed: 0
   y_speed: 0
-  damage: 1
+  damage: 2
   gravity: -1
   octopus: {fileID: 0}
   swipeDistance: 0.1
