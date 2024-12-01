@@ -2,6 +2,6 @@
     "fishes": [
        4, 6, 3, 2
     ],
-    "background": 0,
+    "background": 6,
     "map": 18
 }
