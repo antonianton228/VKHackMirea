@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem.Controls;
 
 public class LineDrow : MonoBehaviour
 {
@@ -9,9 +10,21 @@ public class LineDrow : MonoBehaviour
 	[SerializeField] private GameObject dotPrefab;
 	[SerializeField] private List<GameObject> dotsList;
 	[SerializeField] private float g;
+	private Vector3 g_vector;
+	
+	public Vector2 last_speed_vector;
+	
 	void Start()
 	{
+		g_vector = new Vector3(0, g, 0);
 		
+		for (int i = 1; i <= dots_count; i++)
+		{
+			GameObject dot = Instantiate(dotPrefab, transform.position, Quaternion.identity);
+			dotsList.Add(dot);
+		}
+		
+		delete_line();
 	}
 
 	// Update is called once per frame
@@ -20,26 +33,29 @@ public class LineDrow : MonoBehaviour
 		
 	}
 	
-	public void drow(Vector2 speed)
+	public void drow(Vector3 speed)
 	{
-		delete_line();
-		for (int i = 1; i <= dots_count; i++)
+		for (int i = 0; i < dots_count; i++)
 		{
 			//Vector2 pos = (i / (dots_count * dots_distance)) * speed + new Vector2(transform.position.x, transform.position.y);
-			float t = (i / (dots_count * dots_distance) * speed.x) / speed.x;
-			Vector2 pos = new Vector2(i / (dots_count * dots_distance) * speed.x, speed.y * t - g * t * t / 2) + new Vector2(transform.position.x, transform.position.y);
-			GameObject dot = Instantiate(dotPrefab);
-			dot.transform.position = new Vector3(pos.x, pos.y, 0);
-			dotsList.Add(dot);
+			dotsList[i].SetActive(true);
+			GameObject dot = dotsList[i];
+			float t = i / (dots_count * dots_distance);
+			Vector3 pos = speed * t - g_vector * t * t / 2 + transform.position;
+			//Vector3 pos = new Vector3(i / (dots_count * dots_distance) * speed.x, (speed.y - g * t * t / 2), 0) + transform.position;
+			//GameObject dot = Instantiate(dotPrefab);
+			dot.transform.position = pos;
+			//dotsList.Add(dot);
 		}
+		
+		last_speed_vector = speed;
 	}
 	
 	public void delete_line()
 	{
 		foreach(var dot in dotsList)
 		{
-			Destroy(dot);
+			dot.SetActive(false);
 		}
-		dotsList.Clear();
 	}
 }

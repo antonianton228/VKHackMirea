@@ -23,11 +23,12 @@ public class FlyingFish : MonoBehaviour
 	[SerializeField] public bool can_use_ability = true;
 	[SerializeField] public GameController controller;
 	
+	[SerializeField] public int points_for_save;
 	
 	
 	public Rigidbody2D rb;
 	// Start is called once before the first execution of Update after the MonoBehaviour is created
-	void Start()
+	virtual public void Start()
 	{
 		rb.gravityScale = 0;
 	}
@@ -113,7 +114,7 @@ public class FlyingFish : MonoBehaviour
 	
 	public float get_damage()
 	{
-		return damage * (rb.linearVelocity.magnitude);
+		return damage * rb.linearVelocity.magnitude;
 	}
 	
 	public void start_fly(Vector2 speed)
@@ -125,7 +126,11 @@ public class FlyingFish : MonoBehaviour
 	public void drow_line(Vector2 speed)
 	{
 		//is_on_octopus = true;
-			GetComponentInChildren<LineDrow>().drow(speed);
+		  LineDrow line = GetComponentInChildren<LineDrow>();
+		  
+		  	line.drow(speed);
+		  
+			
 			// Vector3 swiped_pos = transform.position - new Vector3(swipeDistance * speed.x, swipeDistance * speed.y, 0) ;
 			// GetComponentInChildren<SpriteRenderer>().transform.position = swiped_pos;
 			// octopus.transform.position = swiped_pos;
