@@ -44,8 +44,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8216a25920a7614a9d1b4a3398f9c9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dots_count: 10
+  dots_count: 5
   dots_distance: 1.5
   dotPrefab: {fileID: 2345527308846613581, guid: c35534a9073b8fa4a9fb1b864ebaed3c, type: 3}
   dotsList: []
   g: -9.8
+  last_speed_vector: {x: 0, y: 0}

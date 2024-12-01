@@ -9,9 +9,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5884100883579265216}
-  - component: {fileID: 639692947187291375}
   - component: {fileID: 4026915229530769356}
   - component: {fileID: -6959533426975671745}
+  - component: {fileID: 896593063084341953}
   m_Layer: 0
   m_Name: EelFishPrefab
   m_TagString: fish
@@ -32,46 +32,10 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 8919741656692131725}
   - {fileID: 5620367155401478257}
+  - {fileID: 4897228958188540381}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!58 &639692947187291375
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3802742315071472122}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_Radius: 0.5
 --- !u!50 &4026915229530769356
 Rigidbody2D:
   serializedVersion: 5
@@ -123,7 +87,44 @@ MonoBehaviour:
   can_use_ability: 1
   controller: {fileID: 0}
   rb: {fileID: 4026915229530769356}
---- !u!1 &7376909790843235000
+--- !u!70 &896593063084341953
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3802742315071472122}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0.05731249, y: -0.060174778}
+  m_Size: {x: 2.1633966, y: 0.4899575}
+  m_Direction: 1
+--- !u!1 &5492317666047483654
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -131,38 +132,38 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 8919741656692131725}
-  - component: {fileID: 4721881012825838945}
-  - component: {fileID: 5193684959050007955}
+  - component: {fileID: 4897228958188540381}
+  - component: {fileID: 9019162728526173435}
+  - component: {fileID: 4442403788281996197}
   m_Layer: 0
-  m_Name: pixels (3)_0 (1)
+  m_Name: eel_swim_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &8919741656692131725
+--- !u!4 &4897228958188540381
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7376909790843235000}
+  m_GameObject: {fileID: 5492317666047483654}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.004, y: -0.003, z: 0.000013314986}
-  m_LocalScale: {x: 4.260576, y: 4.260576, z: 4.260576}
+  m_LocalPosition: {x: 0.053, y: -0.073, z: 0.000013314986}
+  m_LocalScale: {x: 2.6617, y: 2.6617, z: 2.6617}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5884100883579265216}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &4721881012825838945
+--- !u!212 &9019162728526173435
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7376909790843235000}
+  m_GameObject: {fileID: 5492317666047483654}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -200,28 +201,28 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 1051012537917454178, guid: 63dbe3a5d54b13d4cbe578a4d6668bba, type: 3}
-  m_Color: {r: 0.10666607, g: 0.4811321, b: 0.10666607, a: 1}
+  m_Sprite: {fileID: 2022497610590454863, guid: 1485a08be4d4111468d362bdb9c24a6c, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.24, y: 0.14}
+  m_Size: {x: 0.83, y: 0.21}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!95 &5193684959050007955
+--- !u!95 &4442403788281996197
 Animator:
   serializedVersion: 7
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7376909790843235000}
+  m_GameObject: {fileID: 5492317666047483654}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 1aac52e27c4ba57448f92de4131c9835, type: 2}
+  m_Controller: {fileID: 9100000, guid: 9f0dd2b9dba9c0947a4fcc8790f7ac4b, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

@@ -4,726 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a048d7eb-25e7-4765-b3b6-a73bef4b36f0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/VkHackatonMirea.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Adaptive Performance.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Adaptive Performance/Settings.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Adaptive Performance/Settings/Simulator Provider Settings.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Adaptive Performance/Settings/Simulator Provider Settings.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MAPS.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MAPS/LevelsPrefabs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MAPS/LevelsPrefabs/Map 1.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MAPS/LevelsPrefabs/Map 1/Map (1.1).prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MAPS/LevelsPrefabs/Map 1/Map (1.1).prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MAPS/LevelsPrefabs/Map 1/Map (1.2).prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MAPS/LevelsPrefabs/Map 1/Map (1.2).prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MAPS/LevelsPrefabs/Map 1/Map (1.3).prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MAPS/LevelsPrefabs/Map 1/Map (1.3).prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MAPS/Maps.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MAPS/Maps/Map 1.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MAPS/Maps/Map 1/map 1.1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MAPS/Maps/Map 1/map 1.1.txt.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MAPS/Maps/Map 1/map 1.2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MAPS/Maps/Map 1/map 1.2.txt.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MAPS/Maps/Map 1/map 1.3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MAPS/Maps/Map 1/map 1.3.txt.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MAPS/map1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MAPS/map1.txt.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Characters/EelFishPrefab.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Characters/EelFishPrefab.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Characters/Line.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Characters/Line.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Characters/Octopus.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Characters/Octopus.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Characters/OctopusLeg.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Characters/OctopusLeg.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Characters/PhantomFishPrefab.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Characters/PhantomFishPrefab.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Characters/SeahorsePrefab.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Characters/SeahorsePrefab.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Characters/SwordFishPrefab.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Characters/SwordFishPrefab.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Characters/fuguFishPrefab.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Characters/fuguFishPrefab.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Enamy.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Enamy/Enemy.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Enamy/Enemy.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/ForBreak/Big1TierStone.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/ForBreak/Big1TierStone.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/ForBreak/Big1TierWood.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/ForBreak/Big1TierWood.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/ForBreak/Big2TierStone 1.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/ForBreak/Big2TierStone 1.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/ForBreak/Big2TierWood.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/ForBreak/Big2TierWood.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/ForBreak/Big3TierWood 1.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/ForBreak/Big3TierWood 1.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/ForBreak/BigMetal.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/ForBreak/BigMetal.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/ForBreak/Box.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/ForBreak/Box.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/ForBreak/BoxMetal.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/ForBreak/BoxMetal.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/ForBreak/Corall 1.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/ForBreak/Corall 1.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/ForBreak/Corall 2.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/ForBreak/Corall 2.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/ForBreak/Corall 3.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/ForBreak/Corall 3.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/ForBreak/Corall 4.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/ForBreak/Corall 4.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/ForBreak/Glass.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/ForBreak/Glass.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/ForBreak/Magma.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/ForBreak/Magma.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/ForBreak/MediumMetal.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/ForBreak/MediumMetal.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/ForBreak/Mediun1TierWood.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/ForBreak/Mediun1TierWood.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/ForBreak/Mediun2TierWood 1.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/ForBreak/Mediun2TierWood 1.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/ForBreak/Small1TierWood.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/ForBreak/Small1TierWood.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/ForBreak/Small2TierWood 1.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/ForBreak/Small2TierWood 1.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/ForBreak/SmallMetal.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/ForBreak/SmallMetal.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/ForBreak/StoneCoral.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/ForBreak/StoneCoral.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/ForBreak/WoodTogether.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/ForBreak/WoodTogether.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Scene/Dot.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Scene/Dot.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Scene/Ground 1.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Scene/Ground 1.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Scene/Level.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Scene/Level.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Save.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Save.json.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/test.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/test.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Block.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Block.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/EnamyScript.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/EnamyScript.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/FishHolder.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/FishHolder.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/FishesClasses.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/FishesClasses/EllFish.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/FishesClasses/EllFish.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/FishesClasses/FuguFish.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/FishesClasses/FuguFish.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/FishesClasses/PhantomFish.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/FishesClasses/PhantomFish.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/FishesClasses/Seahorse.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/FishesClasses/Seahorse.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/FishesClasses/SwordFish.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/FishesClasses/SwordFish.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/FlyingFish.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/FlyingFish.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/GameController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/GameController.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/LineDrow.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/LineDrow.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Map.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Map.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Octopus.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Octopus.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/OctopusLegScript.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/OctopusLegScript.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Save.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Save.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UIController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UIController.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/LiberationSans.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/LiberationSans.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Drop Shadow.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Drop Shadow.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Outline.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Outline.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Sprite Assets.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Style Sheets.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/TMP Settings.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/TMP Settings.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/SDFFunctions.hlsl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/SDFFunctions.hlsl.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP LIT.shadergraph" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP LIT.shadergraph.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP UNLIT.shadergraph" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP UNLIT.shadergraph.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile-2-Pass.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile-2-Pass.shader.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-URP Lit.shadergraph" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-URP Lit.shadergraph.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-URP Unlit.shadergraph" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-URP Unlit.shadergraph.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF.shader.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Sprite.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Sprite.shader.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro.cginc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro.cginc.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne.json.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/ClownAnim.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/ClownAnim.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/FuguAnim.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/FuguAnim.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/New Animation.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/New Animation.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/Octopus.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/Octopus/leg_red_pt1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/Octopus/leg_red_pt1.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/Octopus/leg_red_pt2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/Octopus/leg_red_pt2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/PhantomAnim.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/PhantomAnim.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/barrel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/barrel.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/blocks.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/blocks/coral.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/blocks/coral.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/blocks/coral2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/blocks/coral2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/blocks/coral3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/blocks/coral3.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/blocks/coral4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/blocks/coral4.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/blocks/coral_plank.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/blocks/coral_plank.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/blocks/coral_plank2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/blocks/coral_plank2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/blocks/coral_plank3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/blocks/coral_plank3.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/blocks/coral_plank4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/blocks/coral_plank4.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/blocks/glass.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/blocks/glass.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/blocks/koryaga.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/blocks/koryaga.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/blocks/magma_plank.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/blocks/magma_plank.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/blocks/seaweed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/blocks/seaweed.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/blocks/seaweed2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/blocks/seaweed2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/blocks/stained_metal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/blocks/stained_metal.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/blocks/stained_metal2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/blocks/stained_metal2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/blocks/stained_metal_medium.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/blocks/stained_metal_medium.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/blocks/stained_metal_short.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/blocks/stained_metal_short.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/blocks/stone_plank.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/blocks/stone_plank.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/blocks/stone_plank_coral.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/blocks/stone_plank_coral.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/blocks/stone_plank_medium.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/blocks/stone_plank_medium.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/blocks/stone_plank_moss.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/blocks/stone_plank_moss.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/blocks/stone_plank_short.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/blocks/stone_plank_short.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/blocks/wood.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/blocks/wood.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/blocks/wood_box.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/blocks/wood_box.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/blocks/wood_full.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/blocks/wood_full.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/blocks/wood_medium.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/blocks/wood_medium.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/blocks/wood_medium_rotten.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/blocks/wood_medium_rotten.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/blocks/wood_moss.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/blocks/wood_moss.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/blocks/wood_rotten.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/blocks/wood_rotten.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/blocks/wood_short.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/blocks/wood_short.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/blocks/wood_short_rotten.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/blocks/wood_short_rotten.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/blocks/wood_tog.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/blocks/wood_tog.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/bottle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/bottle.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/bottle2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/bottle2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/bottle3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/bottle3.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/bottlecrack.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/bottlecrack.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/bottom.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/bottom/branch.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/bottom/branch.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/bottom/branch2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/bottom/branch2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/bottom/rock1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/bottom/rock1.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/bottom/rock2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/bottom/rock2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/bottom/rock3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/bottom/rock3.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/bottom/rock4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/bottom/rock4.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/bottom/rock5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/bottom/rock5.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/bottom/rock_magma1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/bottom/rock_magma1.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/bottom/rock_magma2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/bottom/rock_magma2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/bottom/rock_magma3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/bottom/rock_magma3.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/bottom/rock_magma4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/bottom/rock_magma4.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/bottom/rock_magma5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/bottom/rock_magma5.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/bottom/shell.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/bottom/shell.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/bottom/trash.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/bottom/trash/barrel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/bottom/trash/barrel.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/bottom/trash/bottle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/bottom/trash/bottle.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/bottom/trash/bottle2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/bottom/trash/bottle2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/bottom/trash/bottle3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/bottom/trash/bottle3.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/bottom/trash/bottlecrack.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/bottom/trash/bottlecrack.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/bottom/trash/conserv.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/bottom/trash/conserv.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/bottom/trash/pivo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/bottom/trash/pivo.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/bottom/trash/pivo2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/bottom/trash/pivo2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/bottom/trash/pivo3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/bottom/trash/pivo3.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/bottom/trash/pivosad.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/bottom/trash/pivosad.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/branch.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/branch.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/bubble.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/bubble.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/bubble2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/bubble2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/clown.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/clown.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/clown_0 1.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/clown_0 1.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/clown_0 2.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/clown_0 2.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/clown_0.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/clown_0.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/conserv.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/conserv.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/coral.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/coral.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/coral2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/coral2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/clown.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/clown/swim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/clown/swim/clown_swim1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/clown/swim/clown_swim1.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/clown/swim/clown_swim2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/clown/swim/clown_swim2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/clown/swim/clown_swim3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/clown/swim/clown_swim3.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/clown/swim/clown_swim4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/clown/swim/clown_swim4.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/clown/swim/clown_swim5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/clown/swim/clown_swim5.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/clown/swim/clown_swim6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/clown/swim/clown_swim6.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/clown/swim/clown_swim7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/clown/swim/clown_swim7.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/clown/swim/clown_swim8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/clown/swim/clown_swim8.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/eel.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/eel/swim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/eel/swim/eel_swim.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/eel/swim/eel_swim.gif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/eel/swim/eel_swim1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/eel/swim/eel_swim1.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/eel/swim/eel_swim2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/eel/swim/eel_swim2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/eel/swim/eel_swim3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/eel/swim/eel_swim3.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/eel/swim/eel_swim4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/eel/swim/eel_swim4.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/eel/swim/eel_swim5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/eel/swim/eel_swim5.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/eel/swim/eel_swim6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/eel/swim/eel_swim6.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/eel/swim/eel_swim7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/eel/swim/eel_swim7.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/enemy.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/enemy/enemy_bad.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/enemy/enemy_bad.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/enemy/enemy_bad.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/enemy/enemy_bad/New Animation.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/enemy/enemy_bad/New Animation.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/enemy/enemy_bad/enemy_bad_breathe1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/enemy/enemy_bad/enemy_bad_breathe1.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/enemy/enemy_bad/enemy_bad_breathe1_0 1.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/enemy/enemy_bad/enemy_bad_breathe1_0 1.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/enemy/enemy_bad/enemy_bad_breathe1_0.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/enemy/enemy_bad/enemy_bad_breathe1_0.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/enemy/enemy_bad/enemy_bad_breathe1_0.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/enemy/enemy_bad/enemy_bad_breathe1_0.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/enemy/enemy_bad/enemy_bad_breathe2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/enemy/enemy_bad/enemy_bad_breathe2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/enemy/enemy_bad/enemy_bad_breathe3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/enemy/enemy_bad/enemy_bad_breathe3.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/enemy/enemy_bad/enemy_bad_breathe4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/enemy/enemy_bad/enemy_bad_breathe4.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/enemy/enemy_bad/enemy_bad_breathe5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/enemy/enemy_bad/enemy_bad_breathe5.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/enemy/enemy_bad/enemy_bad_breathe6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/enemy/enemy_bad/enemy_bad_breathe6.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/enemy/enemy_good.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/enemy/enemy_good/enemy_good.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/enemy/enemy_good/enemy_good.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/enemy/enemy_good/enemy_good_breathe1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/enemy/enemy_good/enemy_good_breathe1.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/enemy/enemy_good/enemy_good_breathe2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/enemy/enemy_good/enemy_good_breathe2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/enemy/enemy_good/enemy_good_breathe3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/enemy/enemy_good/enemy_good_breathe3.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/enemy/enemy_good/enemy_good_breathe4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/enemy/enemy_good/enemy_good_breathe4.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/enemy/enemy_good/enemy_good_breathe5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/enemy/enemy_good/enemy_good_breathe5.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/enemy/enemy_good/enemy_good_breathe6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/enemy/enemy_good/enemy_good_breathe6.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/enemy/enemy_rotten.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/enemy/enemy_rotten.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/enemy/enemy_rotten.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/enemy/enemy_rotten/enemy_rotten_breathe1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/enemy/enemy_rotten/enemy_rotten_breathe1.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/enemy/enemy_rotten/enemy_rotten_breathe2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/enemy/enemy_rotten/enemy_rotten_breathe2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/enemy/enemy_rotten/enemy_rotten_breathe3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/enemy/enemy_rotten/enemy_rotten_breathe3.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/enemy/enemy_rotten/enemy_rotten_breathe4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/enemy/enemy_rotten/enemy_rotten_breathe4.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/enemy/enemy_rotten/enemy_rotten_breathe5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/enemy/enemy_rotten/enemy_rotten_breathe5.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/enemy/enemy_rotten/enemy_rotten_breathe6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/enemy/enemy_rotten/enemy_rotten_breathe6.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/enemy/enemy_worse.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/enemy/enemy_worse/enemy_worse.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/enemy/enemy_worse/enemy_worse.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/enemy/enemy_worse/enemy_worse_breathe1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/enemy/enemy_worse/enemy_worse_breathe1.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/enemy/enemy_worse/enemy_worse_breathe2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/enemy/enemy_worse/enemy_worse_breathe2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/enemy/enemy_worse/enemy_worse_breathe3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/enemy/enemy_worse/enemy_worse_breathe3.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/enemy/enemy_worse/enemy_worse_breathe4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/enemy/enemy_worse/enemy_worse_breathe4.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/enemy/enemy_worse/enemy_worse_breathe5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/enemy/enemy_worse/enemy_worse_breathe5.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/enemy/enemy_worse/enemy_worse_breathe6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/enemy/enemy_worse/enemy_worse_breathe6.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/fugu.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/fugu/blow.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/fugu/blow/fugu_blow1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/fugu/blow/fugu_blow1.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/fugu/blow/fugu_blow2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/fugu/blow/fugu_blow2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/fugu/blow/fugu_blow3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/fugu/blow/fugu_blow3.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/fugu/blow/fugu_blow4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/fugu/blow/fugu_blow4.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/fugu/blow/fugu_blow5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/fugu/blow/fugu_blow5.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/fugu/swim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/fugu/swim/fugu_swim1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/fugu/swim/fugu_swim1.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/fugu/swim/fugu_swim10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/fugu/swim/fugu_swim10.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/fugu/swim/fugu_swim2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/fugu/swim/fugu_swim2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/fugu/swim/fugu_swim3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/fugu/swim/fugu_swim3.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/fugu/swim/fugu_swim4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/fugu/swim/fugu_swim4.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/fugu/swim/fugu_swim5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/fugu/swim/fugu_swim5.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/fugu/swim/fugu_swim6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/fugu/swim/fugu_swim6.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/fugu/swim/fugu_swim7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/fugu/swim/fugu_swim7.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/fugu/swim/fugu_swim8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/fugu/swim/fugu_swim8.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/fugu/swim/fugu_swim9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/fugu/swim/fugu_swim9.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/ghostfish.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/ghostfish/swim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/ghostfish/swim/ghost1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/ghostfish/swim/ghost1.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/ghostfish/swim/ghost10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/ghostfish/swim/ghost10.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/ghostfish/swim/ghost11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/ghostfish/swim/ghost11.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/ghostfish/swim/ghost12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/ghostfish/swim/ghost12.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/ghostfish/swim/ghost2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/ghostfish/swim/ghost2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/ghostfish/swim/ghost3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/ghostfish/swim/ghost3.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/ghostfish/swim/ghost4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/ghostfish/swim/ghost4.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/ghostfish/swim/ghost5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/ghostfish/swim/ghost5.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/ghostfish/swim/ghost6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/ghostfish/swim/ghost6.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/ghostfish/swim/ghost7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/ghostfish/swim/ghost7.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/ghostfish/swim/ghost8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/ghostfish/swim/ghost8.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/ghostfish/swim/ghost9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/ghostfish/swim/ghost9.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/octopus.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/octopus/leg_pt1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/octopus/leg_pt1.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/octopus/leg_pt2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/octopus/leg_pt2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/octopus/leg_red_pt1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/octopus/leg_red_pt1.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/octopus/leg_red_pt2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/octopus/leg_red_pt2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/seahorse.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/seahorse.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/seahorse.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/seahorse/roll_out.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/seahorse/roll_out/New Animation.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/seahorse/roll_out/New Animation.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/seahorse/roll_out/seahorse1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/seahorse/roll_out/seahorse1.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/seahorse/roll_out/seahorse1_0 (1).controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/seahorse/roll_out/seahorse1_0 (1).controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/seahorse/roll_out/seahorse1_0 (1).prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/seahorse/roll_out/seahorse1_0 (1).prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/seahorse/roll_out/seahorse1_0.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/seahorse/roll_out/seahorse1_0.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/seahorse/roll_out/seahorse2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/seahorse/roll_out/seahorse2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/seahorse/roll_out/seahorse3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/seahorse/roll_out/seahorse3.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/seahorse/roll_out/seahorse4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/seahorse/roll_out/seahorse4.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/seahorse/roll_out/seahorse5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/seahorse/roll_out/seahorse5.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/seahorse/roll_out/seahorse5_0.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/seahorse/roll_out/seahorse5_0.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/seahorse/seahorse.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/seahorse/seahorse.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/stonefish.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/stonefish/stonefish1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/stonefish/stonefish1.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/stonefish/stonefish10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/stonefish/stonefish10.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/stonefish/stonefish11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/stonefish/stonefish11.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/stonefish/stonefish2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/stonefish/stonefish2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/stonefish/stonefish3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/stonefish/stonefish3.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/stonefish/stonefish4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/stonefish/stonefish4.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/stonefish/stonefish5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/stonefish/stonefish5.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/stonefish/stonefish6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/stonefish/stonefish6.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/stonefish/stonefish7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/stonefish/stonefish7.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/stonefish/stonefish8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/stonefish/stonefish8.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/stonefish/stonefish9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/stonefish/stonefish9.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/stonefish2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/stonefish2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/swordfish.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/swordfish/boost.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/swordfish/boost/swordfish_boost1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/swordfish/boost/swordfish_boost1.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/swordfish/boost/swordfish_boost10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/swordfish/boost/swordfish_boost10.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/swordfish/boost/swordfish_boost2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/swordfish/boost/swordfish_boost2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/swordfish/boost/swordfish_boost3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/swordfish/boost/swordfish_boost3.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/swordfish/boost/swordfish_boost4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/swordfish/boost/swordfish_boost4.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/swordfish/boost/swordfish_boost5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/swordfish/boost/swordfish_boost5.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/swordfish/boost/swordfish_boost6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/swordfish/boost/swordfish_boost6.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/swordfish/boost/swordfish_boost7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/swordfish/boost/swordfish_boost7.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/swordfish/boost/swordfish_boost8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/swordfish/boost/swordfish_boost8.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/swordfish/boost/swordfish_boost9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/swordfish/boost/swordfish_boost9.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/swordfish/swim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/swordfish/swim/swordfish1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/swordfish/swim/swordfish1.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/swordfish/swim/swordfish10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/swordfish/swim/swordfish10.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/swordfish/swim/swordfish2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/swordfish/swim/swordfish2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/swordfish/swim/swordfish3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/swordfish/swim/swordfish3.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/swordfish/swim/swordfish4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/swordfish/swim/swordfish4.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/swordfish/swim/swordfish5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/swordfish/swim/swordfish5.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/swordfish/swim/swordfish6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/swordfish/swim/swordfish6.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/swordfish/swim/swordfish7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/swordfish/swim/swordfish7.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/swordfish/swim/swordfish8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/swordfish/swim/swordfish8.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/swordfish/swim/swordfish9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fish/swordfish/swim/swordfish9.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fugu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fugu.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fugu_0.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fugu_0.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fugu_blow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/fugu_blow.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/koryaga.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/koryaga.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/links.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/links.txt.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/particles.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/particles/bubble.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/particles/bubble.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/particles/bubble2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/particles/bubble2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/pivo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/pivo.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/pivo2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/pivo2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/pivo3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/pivo3.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/pivosad.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/pivosad.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/pixels (3).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/pixels (3).png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/plankton.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/plankton.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/rock1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/rock1.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/rock2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/rock2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/rock3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/rock3.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/rock4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/rock4.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/rock5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/rock5.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/seaweed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/seaweed.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/sf.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/sf.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/sf_0.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/sf_0.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/shell.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/shell.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/stone_plank.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/stone_plank.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/stone_plank_moss.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/stone_plank_moss.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/stonefish2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/stonefish2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/wood.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/wood.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/wood_box.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/wood_box.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/wood_full.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/wood_full.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/wood_medium.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/wood_medium.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/wood_moss.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/wood_moss.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/wood_rotten.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/wood_rotten.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/wood_short.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/wood_short.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/wood_tog.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/sprites/wood_tog.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UpgradeLog.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Текстовый документ.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Characters/Default.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Characters/Default.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Scene/Ground.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Scene/Ground.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/CrashScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/CrashScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
-    </list>
+    <list default="true" id="a048d7eb-25e7-4765-b3b6-a73bef4b36f0" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -732,33 +13,102 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "antonianton228"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;antonianton228&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/antonianton228/VKHackMirea.git",
-    "accountId": "9da85f49-7a98-41e3-84df-d0c7a83f3662"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/antonianton228/VKHackMirea.git&quot;,
+    &quot;accountId&quot;: &quot;9da85f49-7a98-41e3-84df-d0c7a83f3662&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 8
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2pWVi44X5MPbmFarb0hF9lfXqok" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Merging matvey__edit"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;anton__edit&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docs" factoryName="Docutils task">
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <option name="docutils_input_file" value="" />
+      <option name="docutils_output_file" value="" />
+      <option name="docutils_params" value="" />
+      <option name="docutils_task" value="" />
+      <option name="docutils_open_in_browser" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docs" factoryName="Sphinx task">
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <option name="docutils_input_file" value="" />
+      <option name="docutils_output_file" value="" />
+      <option name="docutils_params" value="" />
+      <option name="docutils_task" value="" />
+      <option name="docutils_open_in_browser" value="false" />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
