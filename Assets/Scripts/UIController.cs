@@ -23,9 +23,9 @@ public class UIController : MonoBehaviour
 	public void show_win_canvs()
 	{
 		GameController controller = GetComponent<GameController>();
-		Save save = controller.save;
-		save.score = save.score + controller.current_score;
-		File.WriteAllText("Assets/Save.json", JsonUtility.ToJson(save));
+
+		controller.save.score = controller.save.score + controller.current_score;
+		//File.WriteAllText("Assets/Save.json", JsonUtility.ToJson(save));
 		
 		
 		winCanvas.SetActive(true);
@@ -38,27 +38,29 @@ public class UIController : MonoBehaviour
 	
 	public void to_main_menu()
 	{
+		GameController controller = GetComponent<GameController>();
+		Save save = controller.save;
+		File.WriteAllText("Assets/Save.json", JsonUtility.ToJson(save));
 		SceneManager.LoadScene("Menu");
 	}
 	
 	public void next_level()
 	{
 		GameController controller = GetComponent<GameController>();
-		Save save = controller.save;
-		save.current_level += 1;
-		save.current_level = math.min(save.current_level, save.max_level);
-		save.max_opened_level = math.max(save.current_level, save.max_opened_level);
+		controller.save.current_level += 1;
+		controller.save.current_level = math.min(controller.save.current_level, controller.save.max_level);
+		controller.save.max_opened_level = math.max(controller.save.current_level, controller.save.max_opened_level);
 		
-		if (save.is_auth)
+		if (controller.save.is_auth)
 		{
 			DBUpdate db = GetComponent<DBUpdate>();
-			StartCoroutine(db.update_db(save));
+			StartCoroutine(db.update_db(controller.save));
 		}
 		
+		Debug.Log(controller.save.current_level);
 		
-		
-		File.WriteAllText("Assets/Save.json", JsonUtility.ToJson(save));
-		
+		File.WriteAllText("Assets/Save.json", JsonUtility.ToJson(controller.save));
+
 		
 		SceneManager.LoadScene("CrashScene");
 	}
