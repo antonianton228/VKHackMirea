@@ -2,6 +2,8 @@ using System.IO;
 using Unity.Mathematics;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using System.Collections;
+using UnityEngine.Networking;
 
 public class UIController : MonoBehaviour
 {
@@ -9,6 +11,8 @@ public class UIController : MonoBehaviour
 	
 	[SerializeField] private GameObject winCanvas;
 	[SerializeField] private GameObject looseCanvas;
+	
+	[SerializeField] private string backend_adress;
 		void Start()
 	{
 		
@@ -26,7 +30,7 @@ public class UIController : MonoBehaviour
 
 		controller.save.score = controller.save.score + controller.current_score;
 		//File.WriteAllText("Assets/Save.json", JsonUtility.ToJson(save));
-		
+
 		
 		winCanvas.SetActive(true);
 	}
@@ -38,6 +42,7 @@ public class UIController : MonoBehaviour
 	
 	public void to_main_menu()
 	{
+		
 		GameController controller = GetComponent<GameController>();
 		Save save = controller.save;
 		File.WriteAllText("Assets/Save.json", JsonUtility.ToJson(save));
@@ -61,14 +66,42 @@ public class UIController : MonoBehaviour
 		if (controller.save.is_auth)
 		{
 			DBUpdate db = GetComponent<DBUpdate>();
-			StartCoroutine(db.update_db(controller.save));
+			StartCoroutine(update_db(controller.save));
 		}
 		
-		Debug.Log(controller.save.current_level);
+		
+		
 		
 		File.WriteAllText("Assets/Save.json", JsonUtility.ToJson(controller.save));
-
 		
 		SceneManager.LoadScene("CrashScene");
+		
+		
+		
+		
+	}
+	
+	
+	public IEnumerator update_db(Save save)
+	{
+
+		var uwr = new UnityWebRequest(backend_adress + "update_score", "POST");
+		byte[] jsonToSend = new System.Text.UTF8Encoding().GetBytes("{\"score\":" + save.score + ", \"vk\": \"" + save.vkid + "\"}");
+		uwr.uploadHandler = (UploadHandler)new UploadHandlerRaw(jsonToSend);
+		uwr.downloadHandler = (DownloadHandler)new DownloadHandlerBuffer();
+		uwr.SetRequestHeader("Content-Type", "application/json");
+
+		//Send the request then wait here until it returns
+		yield return uwr.SendWebRequest();
+
+
+		if (uwr.isNetworkError)
+		{
+			Debug.Log("Error While Sending: " + uwr.error);
+		}
+		else
+		{
+			Debug.Log("Received: " + uwr.downloadHandler.text);
+		}
 	}
 }

@@ -25,26 +25,4 @@ public class DBUpdate : MonoBehaviour
 		
 	}
 	
-	public IEnumerator update_db(Save save)
-	{
-
-		var uwr = new UnityWebRequest(backend_adress + "update_score", "POST");
-		byte[] jsonToSend = new System.Text.UTF8Encoding().GetBytes("{\"score\":" + save.score + ", \"vk\": \"" + save.vkid + "\"}");
-		uwr.uploadHandler = (UploadHandler)new UploadHandlerRaw(jsonToSend);
-		uwr.downloadHandler = (DownloadHandler)new DownloadHandlerBuffer();
-		uwr.SetRequestHeader("Content-Type", "application/json");
-
-		//Send the request then wait here until it returns
-		yield return uwr.SendWebRequest();
-
-
-		if (uwr.isNetworkError)
-		{
-			Debug.Log("Error While Sending: " + uwr.error);
-		}
-		else
-		{
-			Debug.Log("Received: " + uwr.downloadHandler.text);
-		}
-	}
 }
