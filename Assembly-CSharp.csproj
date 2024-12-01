@@ -72,6 +72,7 @@
     <Compile Include="Assets\Scripts\FishesClasses\SwordFish.cs" />
     <Compile Include="Assets\Scripts\LineDrow.cs" />
     <Compile Include="Assets\Scripts\FishesClasses\Seahorse.cs" />
+    <Compile Include="Assets\Scripts\ChoiceScript.cs" />
     <Compile Include="Assets\Scripts\LeaderboardEntryScript.cs" />
     <Compile Include="Assets\Scripts\FishesClasses\StoneFish.cs" />
     <Compile Include="Assets\SimpleVKSignIn\Scripts\TokenResponse.cs" />

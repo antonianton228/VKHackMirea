@@ -62,4 +62,8 @@ public class BackGroundActive : MonoBehaviour
 		// }
 	}
 	
+	
+	
+	
+	
 }
